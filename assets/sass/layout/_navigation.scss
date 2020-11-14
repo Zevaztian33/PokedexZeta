@@ -1,0 +1,55 @@
+nav{
+    background-color: beige;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px 0;
+    vertical-align: middle;
+
+    img{
+        width: 250px;
+        flex-basis: 100px;
+        padding: 10px 20px;
+        
+    }
+
+    .buscador{
+        padding: 15px 20px;
+        
+        #caja{
+            background: white;
+            border: 3px solid black;
+            border-radius: 25px;
+            font-size: 20px;
+            font-family: 'Montserrat', sans-serif;
+            padding: 10px 20px;
+            flex-basis: 100px;
+            outline:none;
+        }
+
+        #buscando{
+            background: #cc1414;
+            border: 3px solid black;
+            border-radius: 25px;
+            color: white;
+            font-family: 'Righteous', cursive;
+            font-size: 20px;
+            padding: 10px 30px;
+            flex-basis: 100px;
+            outline:none;
+        }
+
+        #buscando:hover{
+            background: #fbcb04;
+            color: black;
+        }
+
+        #buscando:focus{
+            background: #2c62aa;
+            color: white;
+        }
+    }
+    
+
+}

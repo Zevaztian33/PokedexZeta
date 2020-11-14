@@ -1,0 +1,198 @@
+header{
+    background-image: url('../img/fondo4.png');
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+
+    h1{
+        color: white;
+        font-size: 20px;
+        font-weight: 700;
+        padding-top: 10px;
+        font-family: 'Montserrat', sans-serif;
+
+        img{
+            width: 150px;
+        }
+    }
+    .primeraLinea{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        
+        
+        .imgPoke{
+            .circulo{
+                width: 300px;
+                height: 300px;
+                border-radius: 100%;
+                background-color: white;
+                border: 5px solid black;
+                flex-basis: 300px;
+        
+                img{
+                    width: 290px;
+                }
+        
+                p{
+                    width: 50%;
+                    font-size: 20px;
+                    text-align: center;
+                    margin-top: 70px;
+                    margin-left: 70px;
+                    font-family: 'Righteous', cursive;
+                }
+            } 
+        }
+        
+        .miniBotones{
+            flex-basis: 150px;
+            margin: 30px;
+
+            #normal{
+                border-radius: 100%;
+                width: 50px;
+                height: 50px;
+                outline:none;
+                
+            }
+
+            #back{
+                border-radius: 100%;
+                width: 50px;
+                height: 50px;
+                outline:none;
+                margin-top: 10px;
+            }
+            
+            #shiny{
+                border-radius: 100%;
+                width: 50px;
+                height: 50px;
+                outline:none;
+                margin-top: 10px;
+            }
+
+            #backshiny{
+                border-radius: 100%;
+                width: 50px;
+                height: 50px;
+                outline:none;
+                margin-top: 10px;
+            }
+
+            #oficial{
+                border-radius: 100%;
+                width: 50px;
+                height: 50px;
+                outline:none;
+                margin-top: 10px;
+            }
+
+            #sprite{
+                border-radius: 100%;
+                width: 50px;
+                height: 50px;
+                outline:none;
+                margin-top: 10px;
+            }
+        }
+
+        .ficha{
+            flex-basis: 300px;
+
+            .tarjeta{
+                height: 300px;
+                width: 300px;
+                border-radius: 25px;
+                border: 5px solid black;
+                font-family: 'Montserrat', sans-serif;
+                text-transform: capitalize;
+                background-color: white;
+
+                #nombre{
+                    font-family: 'Righteous', cursive;
+                    font-size: 20px;
+                    margin: 10px 0;
+                }
+            }
+        } 
+    }
+
+    .segundaLinea{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+
+
+        .estadisticas{
+            flex-basis: 300px;
+            margin: 50px;
+            
+            table {
+                border-collapse: collapse;
+                width: 100%;
+                font-size: 20px;
+                font-family: 'Righteous', cursive;
+                border: 5px solid black;            
+            }
+              
+            td, th {
+                color:#f1f6ff;
+                border: 1px solid #e8332a;
+                text-align: left;
+                padding: 8px;
+                font-family: 'Montserrat', sans-serif;
+            }
+              
+            tr:nth-child(even) {
+                background-color: #7b0b06;
+            }
+            tr:nth-child(odd) {
+                background-color: #2c62aa;
+            }
+        }
+
+        .grafico{
+            flex-basis: 400px;
+                                   
+            #chartContainer{
+                height: 250px;
+            }
+        }
+
+        .listaSkills{
+            
+            background-color: #fbcb04;
+            padding: 20px;
+            border: 5px solid black;   
+            border-radius: 25px;
+            flex-basis: 300px;
+            
+            .tituloSkills{
+                font-family: 'Righteous', cursive;
+                font-size: 20px;
+            }
+
+            #nameSkills{
+                font-family: 'Montserrat', sans-serif;
+                font-size: 16px;
+                text-transform: capitalize;
+            }
+
+            .items{
+                font-family: 'Righteous', cursive;
+                font-size: 20px;
+            }
+
+            #nameItems{
+                font-family: 'Montserrat', sans-serif;
+                font-size: 16px;
+                text-transform: capitalize;
+            }
+        }
+    }
+}
